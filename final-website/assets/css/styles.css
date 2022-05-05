@@ -1,4 +1,4 @@
-body {
+/*body {
     font-size: 16px;
     background-color: #f4f4f4;
     font-family: sans-serif;
@@ -8,7 +8,7 @@ h1 {
     font-size: 2em;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
     /* margin: 1em 0 1.5em 0; */
-}
+/*} 
 
 h2 {
     font-size: 1.6em;
@@ -42,7 +42,7 @@ footer {
     padding: 2em;
     margin: 1em 0;
     /* vertically align */
-    display: flex;
+    /*display: flex;
     align-items: center;
     justify-content: center;
 
@@ -53,4 +53,4 @@ footer {
 
 main {
     margin-bottom: 2em;
-}
+} */
