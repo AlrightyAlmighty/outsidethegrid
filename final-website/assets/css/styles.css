@@ -1,21 +1,29 @@
 body {
     font-size: 16px;
-    background-color: #f4f4f4;
-    font-family: sans-serif;
+    background-color: #FBE8A6;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
     font-size: 2em;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
     margin: 1em 0 1.5em 0;
+    font-family: 'EB Garamond', serif;
 } 
 
 h2 {
     font-size: 1.6em;
+    font-family: 'EB Garamond', serif;
 }
 
 h3 {
     font-size: 1.4em;
+    font-family: 'EB Garamond', serif;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-family: 'EB Garamond', serif;
 }
 
 p {
@@ -31,13 +39,13 @@ p {
 
 header,
 footer {
-    background-color: #777999;
+    background-color: #F4976C;
     padding: 2em 0;
 }
 
 .hero {
     text-align: center;
-    background: #a5a5a5;
+    background: #303C6C;
     min-height: 5em;
     padding: 2em;
     margin: 1em 0;

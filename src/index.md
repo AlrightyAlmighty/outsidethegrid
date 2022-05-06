@@ -33,6 +33,7 @@ quality1:
 #### CREATOR
 - I’m quite the tinker. Most of my skills lie in the creative arts. I’ve painted murals, created advertising, crafted brooches, donated artworks and, most impressively, knitted a sweater. I’ve also dabbled in carpentry, interior design, and sewing. I’m blessed with itchy hands and a brain bursting with ideas, so I figure why not use them!
 
+--- 
 
 ### Recent Endeavors <!--would like to have as a separate strip-->
 - **March 2022** <!--supposed to be BOLD but isn't >:( -->) – Painted a mural for Revelation Puzzle Rooms
@@ -45,6 +46,7 @@ quality1:
 - **May 2021** – Completed first teaching placement at Canberra Girls Grammar Senior School
 - **May 2021** – Volunteered at the Geek Markets at Exhibition Park (in Canberra)
 
+--- 
 
 ### Current Study
 
