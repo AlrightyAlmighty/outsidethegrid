@@ -1,11 +1,13 @@
 body {
     font-size: 16px;
-    background-color: #FBE8A6;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff;
 }
 
 ul { 
     list-style-type: disc; 
+    font-family: 'Varela', sans-serif;
+    line-height: 1.5em;
+    color: #664A32;
 } 
 
 ul li { 
@@ -18,28 +20,39 @@ h1 {
     font-size: 2em;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
     margin: 1em 0 1.5em 0;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 1.5em;
+    color: #664A32;
 } 
 
 h2 {
     font-size: 1.6em;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 1.5em;
+    color: #664A32;
 }
 
 h3 {
     font-size: 1.4em;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Varela', sans-serif;
+    line-height: 1.5em;
+    color: #664A32;
 }
 
 h4 {
     font-size: 1.4em;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Varela', sans-serif;
+    line-height: 1.5em;
+    color: #664A32;
 }
 
 p {
     font-size: 1.2em;
     line-height: 1.5em;
     margin-bottom: 1.5em;
+    font-family: 'Varela', sans-serif;
+    line-height: 1.5em;
+    color: #664A32;
 }
 
 .inner-wrapper {
@@ -49,7 +62,7 @@ p {
 
 header,
 footer {
-    background-color: #303C6C;
+    background-color: #6bcfb9;
     padding: 2em 0;
 }
 
@@ -59,7 +72,7 @@ header {
 
 .hero {
     text-align: center;
-    background: #F4976C;
+    background: #f9e45b;
     min-height: 5em;
     padding: 2em;
     margin: 1em 0;
@@ -141,4 +154,45 @@ img {
 .portfolio-row .portfolio .item {
     flex: 45%;
     padding: 1em;
+}
+
+
+.container{ 
+    padding: 1em;
+}
+
+.footer-col{
+    padding: 0 15px;
+    line-height: 1.5em;
+}
+
+.footer-col h4{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    color: #664A32;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.footer-col p {
+    font-family: 'Varela', sans-serif;
+    color: #664A32;
+    margin-bottom: 1em;
+}
+
+.footer-col .social-links a /*this affects the social media icons*/{ 
+    display: inline-block;
+    height: 2.5em;
+    width: 2.5em;
+    background-color: #f9e45b;
+    color: #664A32;
+    margin: 0em 1em 1.5em 0em;
+    text-align: center;
+    line-height: 2.5em;
+    border-radius: 50%; /*makes it a circle*/
+}
+
+.footer-col .social-links a:hover {
+    color: #f9e45b;
+    background-color: #664A32;
 }

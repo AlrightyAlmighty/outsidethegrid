@@ -16,8 +16,6 @@ hero:
 ### I’ve created this website to give you a snapshot into my life and, hopefully, convince you that I’m somewhat accomplished.
 
 
-### Current Study
-
 
 
 <!--add images and social media icons and links after-->

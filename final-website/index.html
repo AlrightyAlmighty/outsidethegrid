@@ -12,7 +12,10 @@
 <link rel="stylesheet" href="assets/css/reset.css">
 <!-- load our main stylesheet -->
 <link rel="stylesheet" href="assets/css/styles.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Varela&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- you could add favicons etc here -->
 
     <!-- set the site title to be a variable, defined in the md file -->
@@ -46,7 +49,6 @@
     <!-- intro blurb only in markdown file -->
     <!--content displays here - must be below the three dashes --> 
 <h3>I’ve created this website to give you a snapshot into my life and, hopefully, convince you that I’m somewhat accomplished.</h3>
-<h3>Current Study</h3>
 <!--add images and social media icons and links after-->
 
 </div>
@@ -54,7 +56,7 @@
 </div>
 
 <div class="titles">
-    <h2>Qualities</h2>
+    <h2><span style="background-color: #6db784">Qualities</span></h2>
 </div>
 
 <div class="row">
@@ -88,7 +90,7 @@
     </div>
 
     <div class="twocol"> <!--text for recent endevs-->
-        <h2>Recent Endeavors</h2>
+        <h2><span style="background-color: #6db784">Recent Endeavors</span></h2>
         <ul>
             <li>March 2022 – Painted a mural for Revelation Puzzle Rooms</li>
             <li>November 2021 to January 2022 – Painted a mural for headspace Canberra</li>
@@ -106,7 +108,7 @@
 
 <div class="newrow wex">
     <div class="titles">
-        <h2>Work Experience</h2>
+        <h2><span style="background-color: #6db784">Work Experience</span></h2>
     </div>
     <div class="card">
         <h3>CANTEEN ASSISTANT | MACGREGOR PRIMARY SCHOOL | MARCH 2022 – CURRENT</h3>
@@ -163,6 +165,10 @@
     </div>
 
 </div>
+
+<div class="titles">
+    <h2><span style="background-color: #6db784">Portfolio</span></h2>
+</div>
 <div class="portfolio-row">
     <div class="portfolio">
         <div class="item">
@@ -200,10 +206,26 @@
     </main>
 
     <!-- The content in this file is inserted into the base.html file -->
-<footer>
-    <div class="inner-wrapper">
-        <p>This content is in the _footer.html file.</p>
-        <p>This page was made by Ben, you should update and remove this text. </p>
+<footer class="footer-a">
+    <div class="container">
+        <div class="footer-col">
+            <h4><span style="background-color: #6db784">Acknowledgement of Country</span></h4>
+            <p>I acknowledge the Ngunnawal people, the custodians of the land on which we meet. I pay my respects to Aboriginal Elders past, present and emerging 
+                and value their cultures, identities, and continuing connection to country, water, kin and community. Sovereignty was never ceded; this always was, 
+                always will be, Aboriginal land.
+            </p>
+        </div>
+    </div>
+</footer>
+<footer class="footer-b">
+    <div class="container">
+        <div class="footer-col">
+            <h4><span style="background-color: #6db784">Socials</span></h4>
+            <div class="social-links"> 
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
     </div>
 </footer>
 
