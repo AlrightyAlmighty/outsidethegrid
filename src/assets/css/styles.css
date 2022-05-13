@@ -19,7 +19,6 @@ ul li {
 h1 {
     font-size: 3em;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
-    margin: 1em 0 1.5em 0;
     font-family: 'Permanent Marker', cursive;
     line-height: 1.5em;
     color: #664A32;
@@ -31,7 +30,6 @@ h2 {
     font-family: 'Permanent Marker', cursive;
     line-height: 1.5em;
     color: #664A32;
-    margin-bottom: 1.5em;
 }
 
 h3 {
@@ -76,7 +74,7 @@ header {
     text-align: center;
     background: #f9e45b;
     min-height: 5em;
-    padding: 2em;
+    padding: 1em;
     margin: 1em 0;
     /* vertically align */
     /*display: flex;*/
@@ -84,14 +82,23 @@ header {
     justify-content: center;
 }
 
+.hero h2 {
+    font-size: 3em;
+    margin: none;
+}
+
+.hero h4 {
+    font-size: 2em;
+}
+
+.main-content h3 {
+    margin: 2em auto;
+}
+
 
 main {
-    margin-bottom: 2em;
+    margin-bottom: 5em;
 } 
-
-.main-content p {
-    background: blue; 
-}
 
 img {
     max-width: 100%;
@@ -113,40 +120,82 @@ img {
     text-align: center;
 }
 
+/* qualities start */
+
 .row {
-    margin: 2em 0;
+    margin: 2em 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 2em;
+    padding: 0 3em;
 }
+
+.quality {
+    flex:  20%;
+    padding: 1em;
+}
+
+.quality h2 {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+
+/* qualities end */
+
+/* endev start */
 
 .row.endev {
     background-color: #6bcfb9;
 }
 
-.quality {
-    flex:  32%;
-}
-
 .twocol {
     flex: 45%;
+    padding: 1.5em;
+}
+
+.twocol h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.twocol ul {
+    background-color: #f9e45b;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 0.313em;
+    padding: 1em;
+}
+
+.twocol img {
+    width: 50%;
+    display: block;
+    margin: auto; 
 }
 
 .newrow {
     flex: 100%;
 }
 
+/* endev start */
+
+/* work experience start */
+
 .card {
-    width: 40%;
+    width: 60%;
     margin: 3em auto;
     border-radius: 0.313em;
     border: solid #6db784;
     padding: 2em;
 }
 
+/* work experience start */
+
+/* image portfolio start */
+
 .portfolio-row {
-    
+    width: 75%;
+    margin: 0 auto;
 }
 
 .portfolio {
@@ -170,12 +219,17 @@ img {
     margin: 1em;
 }
 
+/*image portfolio end */
+
+/*footer start */
+
+
 .container{ 
     padding: 1em;
 }
 
 .footer-col{
-    padding: 0 15px;
+    padding: 0 3em;
     line-height: 1.5em;
 }
 
@@ -186,13 +240,16 @@ img {
     margin-bottom: 1em;
     font-weight: 500;
     text-decoration: underline #f9e45b;
+    text-align: center;
 }
 
 .footer-col p {
     font-family: 'Varela', sans-serif;
     color: #664A32;
     margin-bottom: 1em;
+    text-align: center;
 }
+
 
 .footer-col .social-links a /*this affects the social media icons*/{ 
     display: inline-block;
@@ -209,4 +266,33 @@ img {
 .footer-col .social-links a:hover {
     color: #f9e45b;
     background-color: #664A32;
+}
+
+/*footer end */
+
+@media (max-width: 134.5625em) {
+    .twocol img {
+        margin-top: 3em;
+        margin-bottom: 3em; 
+    }
+}
+
+@media (max-width: 117.1875em) {
+    .twocol img {
+        margin-top: 4em;
+        margin-bottom: 4em; 
+    }
+}
+
+@media (max-width: 101.5625em) {
+    .portfolio-row .portfolio .item {
+        flex: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 71.125em) {
+    .quality {
+        flex:  100%;
+    }
 }
