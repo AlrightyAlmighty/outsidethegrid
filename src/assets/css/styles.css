@@ -17,12 +17,13 @@ ul li {
 
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
     margin: 1em 0 1.5em 0;
     font-family: 'Permanent Marker', cursive;
     line-height: 1.5em;
     color: #664A32;
+    text-decoration: underline #6db784;
 } 
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
     font-family: 'Permanent Marker', cursive;
     line-height: 1.5em;
     color: #664A32;
+    margin-bottom: 1.5em;
 }
 
 h3 {
@@ -120,7 +122,7 @@ img {
 }
 
 .row.endev {
-    background-color: #B4DFE5;
+    background-color: #6bcfb9;
 }
 
 .quality {
@@ -137,8 +139,10 @@ img {
 
 .card {
     width: 40%;
-    margin: 0 auto;
-    background: #9c0;
+    margin: 3em auto;
+    border-radius: 0.313em;
+    border: solid #6db784;
+    padding: 2em;
 }
 
 .portfolio-row {
@@ -156,6 +160,15 @@ img {
     padding: 1em;
 }
 
+.item {
+    margin: 3em;
+    max-width: 30em;
+}
+
+.item h2 {
+    text-align: center;
+    margin: 1em;
+}
 
 .container{ 
     padding: 1em;
@@ -172,6 +185,7 @@ img {
     color: #664A32;
     margin-bottom: 1em;
     font-weight: 500;
+    text-decoration: underline #f9e45b;
 }
 
 .footer-col p {
