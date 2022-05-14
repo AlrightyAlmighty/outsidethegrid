@@ -1,3 +1,17 @@
+#Reflection for Outside the Grid
+
+
+
+## Figure 1 ##
+![lofi prototype](final-website/assets/images/prototype-1.jpg)
+
+## Figure 1 ##
+![lofi prototype](final-websiteassets/images/prototype-2.jpg)
+
+## Figure 1 ##
+![lofi prototype](final-website/assets/images/prototype-3.jpg)
+
+
 # 11056-project2
 
 ## 11056 Project 2 Starter
