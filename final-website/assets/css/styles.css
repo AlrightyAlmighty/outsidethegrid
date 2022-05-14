@@ -93,6 +93,7 @@ header {
 
 .main-content h3 {
     margin: 2em auto;
+    text-align: center;
 }
 
 
@@ -225,7 +226,7 @@ img {
 
 
 .container{ 
-    padding: 1em;
+    padding: 0 1em;
 }
 
 .footer-col{
@@ -246,7 +247,6 @@ img {
 .footer-col p {
     font-family: 'Varela', sans-serif;
     color: #664A32;
-    margin-bottom: 1em;
     text-align: center;
 }
 
@@ -258,7 +258,7 @@ img {
     background-color: #f9e45b;
     color: #664A32;
     margin: 0em 1em 1.5em 0em;
-    text-align: center;
+    text-align: center; /*to line up the icons in the circle*/
     line-height: 2.5em;
     border-radius: 50%; /*makes it a circle*/
 }
@@ -266,6 +266,10 @@ img {
 .footer-col .social-links a:hover {
     color: #f9e45b;
     background-color: #664A32;
+}
+
+.footer-col .social-links {
+    margin: 0 auto; /*This doesn't work either..... I cannot fathom how to get the social links to sit in the middle ARGH*/
 }
 
 /*footer end */
