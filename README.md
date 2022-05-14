@@ -3,13 +3,13 @@
 
 
 ## Figure 1 ##
-![lofi prototype](final-website/assets/images/prototype-1.jpg)
+![lofi prototype](outsidethegrid/final-website/assets/images/prototype-1.jpg)
 
 ## Figure 1 ##
-![lofi prototype](final-websiteassets/images/prototype-2.jpg)
+![lofi prototype](outsidethegrid/final-websiteassets/images/prototype-2.jpg)
 
 ## Figure 1 ##
-![lofi prototype](final-website/assets/images/prototype-3.jpg)
+![lofi prototype](outsidethegrid/final-website/assets/images/prototype-3.jpg)
 
 
 # 11056-project2
