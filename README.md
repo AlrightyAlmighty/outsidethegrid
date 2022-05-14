@@ -3,10 +3,10 @@
 
 
 ## Figure 1 ##
-![lofi prototype](outsidethegrid/final-website/assets/images/prototype-1.jpg)
+![lofi prototype](assets/images/prototype-1.jpg)
 
 ## Figure 1 ##
-![lofi prototype](outsidethegrid/final-websiteassets/images/prototype-2.jpg)
+![lofi prototype](../../assets/images/prototype-2.jpg)
 
 ## Figure 1 ##
 ![lofi prototype](outsidethegrid/final-website/assets/images/prototype-3.jpg)
