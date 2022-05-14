@@ -5,11 +5,11 @@
 ## Figure 1 ##
 ![lofi prototype](assets/images/prototype-1.jpg)
 
-## Figure 1 ##
+## Figure 2 ##
 ![lofi prototype](../../assets/images/prototype-2.jpg)
 
-## Figure 1 ##
-![lofi prototype](outsidethegrid/final-website/assets/images/prototype-3.jpg)
+## Figure 3 ##
+![lofi prototype](responsivewebsite/outsidethegrid/final-website/assets/images/prototype-3.jpg)
 
 
 # 11056-project2
