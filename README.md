@@ -9,7 +9,7 @@
 ![lofi prototype](../../assets/images/prototype-2.jpg)
 
 ## Figure 3 ##
-![lofi prototype](responsivewebsite/outsidethegrid/final-website/assets/images/prototype-3.jpg)
+![lofi prototype](outsidethegrid/prototype-3.jpg)
 
 
 # 11056-project2
