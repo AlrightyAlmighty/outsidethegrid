@@ -1,4 +1,4 @@
-# Reflection for Outside the Grid #
+# Reflection for Project 2: Outside the Grid #
 
 I have to admit, this assignment left me incredibly frustrated.
 
